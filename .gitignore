@@ -1,6 +1,8 @@
 # Data
 /data
 
+# Image
+/image
 
 # Junk Files
 .DS_Store
