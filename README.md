@@ -1,4 +1,4 @@
-<img src="Image/film1.jpg">
+<img src="images/film1.jpg">
 
 [Credit: college.unc.edu](https://college.unc.edu/2020/05/take-a-film-adventure/)
 

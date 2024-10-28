@@ -2,7 +2,10 @@
 /data
 
 # Image
-/image
+/images
+/Image
+
+
 
 # Junk Files
 .DS_Store

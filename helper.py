@@ -62,10 +62,6 @@ def clean_imdb_df(df):
 
     return df
 
-
-
-
-
 def convert_obj_to_int(value):
     """
     Converts a string with dollar signs and commas to an integer.
@@ -82,8 +78,6 @@ def convert_obj_to_int(value):
         return pd.to_numeric(value, errors='coerce', dtype='int64') #Convert value to int, coerce used to add NaN if conversion fails
     except:
         return pd.to_numeric(value, errors='coerce') 
-
-
 
 
 
@@ -107,8 +101,6 @@ def clean_tn_movies_df(df):
     df['worldwide_gross'] = df['worldwide_gross'].apply(convert_obj_to_int)
     df['release_date'] = pd.to_datetime(df['release_date'])
     return df
-
-
 
 
 def extract_main_genre(df, column_name, new_column):
