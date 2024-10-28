@@ -1,12 +1,6 @@
 # Data
 /data
 
-# Image
-/images
-/Image
-
-
-
 # Junk Files
 .DS_Store
 .ipynb_checkpoints
